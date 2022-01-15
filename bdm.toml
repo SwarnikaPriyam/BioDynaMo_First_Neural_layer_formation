@@ -1,0 +1,11 @@
+[visualization]
+export = true
+interval = 2
+
+	[[visualize_agent]]
+	name = "MyCell"
+	additional_data_members = [ "cell_color_", "cell_type_"]
+	
+	[[visualize_diffusion]]
+        name = "GuidanceCue"
+        gradient = true
